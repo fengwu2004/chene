@@ -13,7 +13,61 @@
 		2CC09F59215F67A100C6CA13 /* chene.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F57215F67A100C6CA13 /* chene.xcdatamodeld */; };
 		2CC09F5B215F67A300C6CA13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC09F5A215F67A300C6CA13 /* Assets.xcassets */; };
 		2CC09F5E215F67A300C6CA13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC09F5C215F67A300C6CA13 /* LaunchScreen.storyboard */; };
+		2CC09F66215F6A0600C6CA13 /* ParkingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CC09F65215F6A0600C6CA13 /* ParkingCell.xib */; };
+		2CC09F6821609EE700C6CA13 /* ParkingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F6721609EE700C6CA13 /* ParkingCell.swift */; };
+		2CC09F6A2160A3A400C6CA13 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 2CC09F692160A3A400C6CA13 /* Cartfile */; };
+		2CC09F6D2160A59500C6CA13 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC09F6C2160A59500C6CA13 /* Alamofire.framework */; };
+		2CC09F6F2160A5F500C6CA13 /* idrCoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F6E2160A5F500C6CA13 /* idrCoreManager.swift */; };
+		2CC09F712160B6CD00C6CA13 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F702160B6CD00C6CA13 /* MD5.swift */; };
+		2CC09F732160BD4700C6CA13 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CC09F6C2160A59500C6CA13 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2CC09F762160C7B500C6CA13 /* idrRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F752160C7B500C6CA13 /* idrRegion.swift */; };
+		2CC09F782160C7D900C6CA13 /* idrFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F772160C7D900C6CA13 /* idrFloor.swift */; };
+		2CC09F7A2160C7E400C6CA13 /* idrUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F792160C7E400C6CA13 /* idrUnit.swift */; };
+		2CC09F9A2160D0C400C6CA13 /* Promise+Retry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F7C2160D0C200C6CA13 /* Promise+Retry.swift */; };
+		2CC09F9B2160D0C400C6CA13 /* PromiseBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F7D2160D0C300C6CA13 /* PromiseBlocks.swift */; };
+		2CC09F9C2160D0C400C6CA13 /* Promise+Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F7E2160D0C300C6CA13 /* Promise+Then.swift */; };
+		2CC09F9D2160D0C400C6CA13 /* Promise+Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F7F2160D0C300C6CA13 /* Promise+Zip.swift */; };
+		2CC09F9E2160D0C400C6CA13 /* PromiseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F802160D0C300C6CA13 /* PromiseState.swift */; };
+		2CC09F9F2160D0C400C6CA13 /* Promise+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F812160D0C300C6CA13 /* Promise+Unwrap.swift */; };
+		2CC09FA02160D0C400C6CA13 /* Promise+nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F832160D0C300C6CA13 /* Promise+nil.swift */; };
+		2CC09FA12160D0C400C6CA13 /* Promise+Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F842160D0C300C6CA13 /* Promise+Progress.swift */; };
+		2CC09FA22160D0C400C6CA13 /* Promise+BridgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F852160D0C300C6CA13 /* Promise+BridgeError.swift */; };
+		2CC09FA32160D0C400C6CA13 /* Promise+Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F862160D0C300C6CA13 /* Promise+Delay.swift */; };
+		2CC09FA42160D0C400C6CA13 /* Promise+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F872160D0C300C6CA13 /* Promise+Helpers.swift */; };
+		2CC09FA52160D0C400C6CA13 /* VoidPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F882160D0C300C6CA13 /* VoidPromise.swift */; };
+		2CC09FA62160D0C400C6CA13 /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F892160D0C300C6CA13 /* Await.swift */; };
+		2CC09FA72160D0C400C6CA13 /* Promise+Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F8A2160D0C300C6CA13 /* Promise+Race.swift */; };
+		2CC09FA82160D0C400C6CA13 /* WhenAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F8B2160D0C300C6CA13 /* WhenAll.swift */; };
+		2CC09FA92160D0C400C6CA13 /* Promise+Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F8C2160D0C300C6CA13 /* Promise+Timeout.swift */; };
+		2CC09FAA2160D0C400C6CA13 /* Promise+Finally.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F8D2160D0C300C6CA13 /* Promise+Finally.swift */; };
+		2CC09FAB2160D0C400C6CA13 /* Promise+Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F8E2160D0C300C6CA13 /* Promise+Validate.swift */; };
+		2CC09FAC2160D0C400C6CA13 /* Promise+NoMatterWhat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F8F2160D0C300C6CA13 /* Promise+NoMatterWhat.swift */; };
+		2CC09FAD2160D0C400C6CA13 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F902160D0C300C6CA13 /* Promise.swift */; };
+		2CC09FAE2160D0C400C6CA13 /* Promise+Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F912160D0C300C6CA13 /* Promise+Aliases.swift */; };
+		2CC09FAF2160D0C400C6CA13 /* Promise+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F922160D0C300C6CA13 /* Promise+Error.swift */; };
+		2CC09FB02160D0C400C6CA13 /* Promise+Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F932160D0C300C6CA13 /* Promise+Chain.swift */; };
+		2CC09FB12160D0C400C6CA13 /* Await+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F942160D0C300C6CA13 /* Await+Operators.swift */; };
+		2CC09FB22160D0C400C6CA13 /* PromiseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F952160D0C300C6CA13 /* PromiseError.swift */; };
+		2CC09FB32160D0C400C6CA13 /* Promise+First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F962160D0C400C6CA13 /* Promise+First.swift */; };
+		2CC09FB52160D0C400C6CA13 /* Promise+Recover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F982160D0C400C6CA13 /* Promise+Recover.swift */; };
+		2CC09FB62160D0C400C6CA13 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09F992160D0C400C6CA13 /* Async.swift */; };
+		2CC09FBD21635FEB00C6CA13 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09FB821635FEA00C6CA13 /* Arrow.swift */; };
+		2CC09FBE21635FEB00C6CA13 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09FB921635FEA00C6CA13 /* JSON.swift */; };
+		2CC09FC021635FEB00C6CA13 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09FBB21635FEB00C6CA13 /* Extensions.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CC09F722160BD3F00C6CA13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2CC09F732160BD4700C6CA13 /* Alamofire.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2CC09F4D215F67A100C6CA13 /* chene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chene.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +78,46 @@
 		2CC09F5A215F67A300C6CA13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CC09F5D215F67A300C6CA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CC09F5F215F67A300C6CA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC09F65215F6A0600C6CA13 /* ParkingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkingCell.xib; sourceTree = "<group>"; };
+		2CC09F6721609EE700C6CA13 /* ParkingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingCell.swift; sourceTree = "<group>"; };
+		2CC09F692160A3A400C6CA13 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		2CC09F6C2160A59500C6CA13 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		2CC09F6E2160A5F500C6CA13 /* idrCoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idrCoreManager.swift; sourceTree = "<group>"; };
+		2CC09F702160B6CD00C6CA13 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		2CC09F752160C7B500C6CA13 /* idrRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idrRegion.swift; sourceTree = "<group>"; };
+		2CC09F772160C7D900C6CA13 /* idrFloor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idrFloor.swift; sourceTree = "<group>"; };
+		2CC09F792160C7E400C6CA13 /* idrUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idrUnit.swift; sourceTree = "<group>"; };
+		2CC09F7C2160D0C200C6CA13 /* Promise+Retry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Retry.swift"; sourceTree = "<group>"; };
+		2CC09F7D2160D0C300C6CA13 /* PromiseBlocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseBlocks.swift; sourceTree = "<group>"; };
+		2CC09F7E2160D0C300C6CA13 /* Promise+Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Then.swift"; sourceTree = "<group>"; };
+		2CC09F7F2160D0C300C6CA13 /* Promise+Zip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Zip.swift"; sourceTree = "<group>"; };
+		2CC09F802160D0C300C6CA13 /* PromiseState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseState.swift; sourceTree = "<group>"; };
+		2CC09F812160D0C300C6CA13 /* Promise+Unwrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Unwrap.swift"; sourceTree = "<group>"; };
+		2CC09F832160D0C300C6CA13 /* Promise+nil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+nil.swift"; sourceTree = "<group>"; };
+		2CC09F842160D0C300C6CA13 /* Promise+Progress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Progress.swift"; sourceTree = "<group>"; };
+		2CC09F852160D0C300C6CA13 /* Promise+BridgeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+BridgeError.swift"; sourceTree = "<group>"; };
+		2CC09F862160D0C300C6CA13 /* Promise+Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Delay.swift"; sourceTree = "<group>"; };
+		2CC09F872160D0C300C6CA13 /* Promise+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Helpers.swift"; sourceTree = "<group>"; };
+		2CC09F882160D0C300C6CA13 /* VoidPromise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoidPromise.swift; sourceTree = "<group>"; };
+		2CC09F892160D0C300C6CA13 /* Await.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Await.swift; sourceTree = "<group>"; };
+		2CC09F8A2160D0C300C6CA13 /* Promise+Race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Race.swift"; sourceTree = "<group>"; };
+		2CC09F8B2160D0C300C6CA13 /* WhenAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhenAll.swift; sourceTree = "<group>"; };
+		2CC09F8C2160D0C300C6CA13 /* Promise+Timeout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Timeout.swift"; sourceTree = "<group>"; };
+		2CC09F8D2160D0C300C6CA13 /* Promise+Finally.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Finally.swift"; sourceTree = "<group>"; };
+		2CC09F8E2160D0C300C6CA13 /* Promise+Validate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Validate.swift"; sourceTree = "<group>"; };
+		2CC09F8F2160D0C300C6CA13 /* Promise+NoMatterWhat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+NoMatterWhat.swift"; sourceTree = "<group>"; };
+		2CC09F902160D0C300C6CA13 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		2CC09F912160D0C300C6CA13 /* Promise+Aliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Aliases.swift"; sourceTree = "<group>"; };
+		2CC09F922160D0C300C6CA13 /* Promise+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Error.swift"; sourceTree = "<group>"; };
+		2CC09F932160D0C300C6CA13 /* Promise+Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Chain.swift"; sourceTree = "<group>"; };
+		2CC09F942160D0C300C6CA13 /* Await+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Await+Operators.swift"; sourceTree = "<group>"; };
+		2CC09F952160D0C300C6CA13 /* PromiseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseError.swift; sourceTree = "<group>"; };
+		2CC09F962160D0C400C6CA13 /* Promise+First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+First.swift"; sourceTree = "<group>"; };
+		2CC09F982160D0C400C6CA13 /* Promise+Recover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Recover.swift"; sourceTree = "<group>"; };
+		2CC09F992160D0C400C6CA13 /* Async.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Async.swift; sourceTree = "<group>"; };
+		2CC09FB821635FEA00C6CA13 /* Arrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
+		2CC09FB921635FEA00C6CA13 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		2CC09FBB21635FEB00C6CA13 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC09F6D2160A59500C6CA13 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +135,7 @@
 		2CC09F44215F67A100C6CA13 = {
 			isa = PBXGroup;
 			children = (
+				2CC09F692160A3A400C6CA13 /* Cartfile */,
 				2CC09F4F215F67A100C6CA13 /* chene */,
 				2CC09F4E215F67A100C6CA13 /* Products */,
 			);
@@ -56,6 +152,8 @@
 		2CC09F4F215F67A100C6CA13 /* chene */ = {
 			isa = PBXGroup;
 			children = (
+				2CC09F742160C79C00C6CA13 /* idrMap */,
+				2CC09F6B2160A58000C6CA13 /* third framework */,
 				2CC09F50215F67A100C6CA13 /* AppDelegate.swift */,
 				2CC09F52215F67A100C6CA13 /* ViewController.swift */,
 				2CC09F54215F67A100C6CA13 /* Main.storyboard */,
@@ -63,8 +161,77 @@
 				2CC09F5C215F67A300C6CA13 /* LaunchScreen.storyboard */,
 				2CC09F5F215F67A300C6CA13 /* Info.plist */,
 				2CC09F57215F67A100C6CA13 /* chene.xcdatamodeld */,
+				2CC09F65215F6A0600C6CA13 /* ParkingCell.xib */,
+				2CC09F6721609EE700C6CA13 /* ParkingCell.swift */,
 			);
 			path = chene;
+			sourceTree = "<group>";
+		};
+		2CC09F6B2160A58000C6CA13 /* third framework */ = {
+			isa = PBXGroup;
+			children = (
+				2CC09FB721635FE000C6CA13 /* arrow */,
+				2CC09F7B2160D08400C6CA13 /* then */,
+				2CC09F702160B6CD00C6CA13 /* MD5.swift */,
+				2CC09F6C2160A59500C6CA13 /* Alamofire.framework */,
+			);
+			path = "third framework";
+			sourceTree = "<group>";
+		};
+		2CC09F742160C79C00C6CA13 /* idrMap */ = {
+			isa = PBXGroup;
+			children = (
+				2CC09F6E2160A5F500C6CA13 /* idrCoreManager.swift */,
+				2CC09F752160C7B500C6CA13 /* idrRegion.swift */,
+				2CC09F772160C7D900C6CA13 /* idrFloor.swift */,
+				2CC09F792160C7E400C6CA13 /* idrUnit.swift */,
+			);
+			path = idrMap;
+			sourceTree = "<group>";
+		};
+		2CC09F7B2160D08400C6CA13 /* then */ = {
+			isa = PBXGroup;
+			children = (
+				2CC09F992160D0C400C6CA13 /* Async.swift */,
+				2CC09F892160D0C300C6CA13 /* Await.swift */,
+				2CC09F942160D0C300C6CA13 /* Await+Operators.swift */,
+				2CC09F902160D0C300C6CA13 /* Promise.swift */,
+				2CC09F912160D0C300C6CA13 /* Promise+Aliases.swift */,
+				2CC09F852160D0C300C6CA13 /* Promise+BridgeError.swift */,
+				2CC09F932160D0C300C6CA13 /* Promise+Chain.swift */,
+				2CC09F862160D0C300C6CA13 /* Promise+Delay.swift */,
+				2CC09F922160D0C300C6CA13 /* Promise+Error.swift */,
+				2CC09F8D2160D0C300C6CA13 /* Promise+Finally.swift */,
+				2CC09F962160D0C400C6CA13 /* Promise+First.swift */,
+				2CC09F872160D0C300C6CA13 /* Promise+Helpers.swift */,
+				2CC09F832160D0C300C6CA13 /* Promise+nil.swift */,
+				2CC09F8F2160D0C300C6CA13 /* Promise+NoMatterWhat.swift */,
+				2CC09F842160D0C300C6CA13 /* Promise+Progress.swift */,
+				2CC09F8A2160D0C300C6CA13 /* Promise+Race.swift */,
+				2CC09F982160D0C400C6CA13 /* Promise+Recover.swift */,
+				2CC09F7C2160D0C200C6CA13 /* Promise+Retry.swift */,
+				2CC09F7E2160D0C300C6CA13 /* Promise+Then.swift */,
+				2CC09F8C2160D0C300C6CA13 /* Promise+Timeout.swift */,
+				2CC09F812160D0C300C6CA13 /* Promise+Unwrap.swift */,
+				2CC09F8E2160D0C300C6CA13 /* Promise+Validate.swift */,
+				2CC09F7F2160D0C300C6CA13 /* Promise+Zip.swift */,
+				2CC09F7D2160D0C300C6CA13 /* PromiseBlocks.swift */,
+				2CC09F952160D0C300C6CA13 /* PromiseError.swift */,
+				2CC09F802160D0C300C6CA13 /* PromiseState.swift */,
+				2CC09F882160D0C300C6CA13 /* VoidPromise.swift */,
+				2CC09F8B2160D0C300C6CA13 /* WhenAll.swift */,
+			);
+			path = then;
+			sourceTree = "<group>";
+		};
+		2CC09FB721635FE000C6CA13 /* arrow */ = {
+			isa = PBXGroup;
+			children = (
+				2CC09FB821635FEA00C6CA13 /* Arrow.swift */,
+				2CC09FBB21635FEB00C6CA13 /* Extensions.swift */,
+				2CC09FB921635FEA00C6CA13 /* JSON.swift */,
+			);
+			path = arrow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +244,7 @@
 				2CC09F49215F67A100C6CA13 /* Sources */,
 				2CC09F4A215F67A100C6CA13 /* Frameworks */,
 				2CC09F4B215F67A100C6CA13 /* Resources */,
+				2CC09F722160BD3F00C6CA13 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -125,6 +293,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC09F6A2160A3A400C6CA13 /* Cartfile in Resources */,
+				2CC09F66215F6A0600C6CA13 /* ParkingCell.xib in Resources */,
 				2CC09F5E215F67A300C6CA13 /* LaunchScreen.storyboard in Resources */,
 				2CC09F5B215F67A300C6CA13 /* Assets.xcassets in Resources */,
 				2CC09F56215F67A100C6CA13 /* Main.storyboard in Resources */,
@@ -138,9 +308,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC09FA32160D0C400C6CA13 /* Promise+Delay.swift in Sources */,
+				2CC09FBD21635FEB00C6CA13 /* Arrow.swift in Sources */,
+				2CC09FAA2160D0C400C6CA13 /* Promise+Finally.swift in Sources */,
+				2CC09FA92160D0C400C6CA13 /* Promise+Timeout.swift in Sources */,
+				2CC09F7A2160C7E400C6CA13 /* idrUnit.swift in Sources */,
+				2CC09FB12160D0C400C6CA13 /* Await+Operators.swift in Sources */,
+				2CC09FAE2160D0C400C6CA13 /* Promise+Aliases.swift in Sources */,
+				2CC09FB62160D0C400C6CA13 /* Async.swift in Sources */,
+				2CC09F9D2160D0C400C6CA13 /* Promise+Zip.swift in Sources */,
+				2CC09FA82160D0C400C6CA13 /* WhenAll.swift in Sources */,
+				2CC09FB52160D0C400C6CA13 /* Promise+Recover.swift in Sources */,
+				2CC09F6821609EE700C6CA13 /* ParkingCell.swift in Sources */,
+				2CC09FA52160D0C400C6CA13 /* VoidPromise.swift in Sources */,
+				2CC09FA12160D0C400C6CA13 /* Promise+Progress.swift in Sources */,
+				2CC09F9C2160D0C400C6CA13 /* Promise+Then.swift in Sources */,
+				2CC09F6F2160A5F500C6CA13 /* idrCoreManager.swift in Sources */,
+				2CC09FB32160D0C400C6CA13 /* Promise+First.swift in Sources */,
+				2CC09F782160C7D900C6CA13 /* idrFloor.swift in Sources */,
+				2CC09F712160B6CD00C6CA13 /* MD5.swift in Sources */,
+				2CC09FAC2160D0C400C6CA13 /* Promise+NoMatterWhat.swift in Sources */,
+				2CC09F9E2160D0C400C6CA13 /* PromiseState.swift in Sources */,
+				2CC09FA72160D0C400C6CA13 /* Promise+Race.swift in Sources */,
 				2CC09F53215F67A100C6CA13 /* ViewController.swift in Sources */,
+				2CC09FA02160D0C400C6CA13 /* Promise+nil.swift in Sources */,
+				2CC09FB22160D0C400C6CA13 /* PromiseError.swift in Sources */,
+				2CC09FAF2160D0C400C6CA13 /* Promise+Error.swift in Sources */,
+				2CC09FAB2160D0C400C6CA13 /* Promise+Validate.swift in Sources */,
+				2CC09FBE21635FEB00C6CA13 /* JSON.swift in Sources */,
+				2CC09FAD2160D0C400C6CA13 /* Promise.swift in Sources */,
+				2CC09FA22160D0C400C6CA13 /* Promise+BridgeError.swift in Sources */,
+				2CC09FA62160D0C400C6CA13 /* Await.swift in Sources */,
+				2CC09FA42160D0C400C6CA13 /* Promise+Helpers.swift in Sources */,
+				2CC09F9B2160D0C400C6CA13 /* PromiseBlocks.swift in Sources */,
+				2CC09F9A2160D0C400C6CA13 /* Promise+Retry.swift in Sources */,
+				2CC09FB02160D0C400C6CA13 /* Promise+Chain.swift in Sources */,
+				2CC09FC021635FEB00C6CA13 /* Extensions.swift in Sources */,
 				2CC09F51215F67A100C6CA13 /* AppDelegate.swift in Sources */,
 				2CC09F59215F67A100C6CA13 /* chene.xcdatamodeld in Sources */,
+				2CC09F762160C7B500C6CA13 /* idrRegion.swift in Sources */,
+				2CC09F9F2160D0C400C6CA13 /* Promise+Unwrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +495,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T39E5QM8Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = chene/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +517,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6T39E5QM8Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = chene/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
