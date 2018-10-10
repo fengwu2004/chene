@@ -10,13 +10,13 @@ import UIKit
 
 class ParkingCell: UITableViewCell {
   
-  @IBOutlet weak var countLabel:UILabel!
+  @IBOutlet private weak var countLabel:UILabel!
   
-  @IBOutlet weak var moneyLabel:UILabel!
+  @IBOutlet private weak var moneyLabel:UILabel!
   
-  @IBOutlet weak var distanceLabel:UILabel!
+  @IBOutlet private weak var distanceLabel:UILabel!
   
-  @IBOutlet weak var regionIcon:UIImageView!
+  @IBOutlet private weak var regionIcon:UIImageView!
   
   override func awakeFromNib() {
     
@@ -31,7 +31,7 @@ class ParkingCell: UITableViewCell {
     
     distanceLabel.text = "\(1000)km"
     
-    regionIcon.image = UIImage()
+    regionIcon.set_urlImage(region.photoUrl, placeholder:"defaultreigonicon")    
   }
   
   override func setSelected(_ selected: Bool, animated: Bool) {

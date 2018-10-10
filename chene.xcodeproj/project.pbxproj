@@ -54,6 +54,11 @@
 		2CC09FBD21635FEB00C6CA13 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09FB821635FEA00C6CA13 /* Arrow.swift */; };
 		2CC09FBE21635FEB00C6CA13 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09FB921635FEA00C6CA13 /* JSON.swift */; };
 		2CC09FC021635FEB00C6CA13 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC09FBB21635FEB00C6CA13 /* Extensions.swift */; };
+		2CD8C25B216C40B800A5CB8A /* UIImageView+url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD8C25A216C40B800A5CB8A /* UIImageView+url.swift */; };
+		2CD8C25D216C4AF100A5CB8A /* KYWebImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD8C25C216C4AF100A5CB8A /* KYWebImageDownloader.swift */; };
+		2CD8C25F216C4B0500A5CB8A /* KYWebImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD8C25E216C4B0500A5CB8A /* KYWebImageManager.swift */; };
+		2CD8C261216C4B1C00A5CB8A /* KYWebImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD8C260216C4B1C00A5CB8A /* KYWebImageCache.swift */; };
+		2CD8C263216D8C8A00A5CB8A /* KYPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD8C262216D8C8A00A5CB8A /* KYPriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -118,6 +123,11 @@
 		2CC09FB821635FEA00C6CA13 /* Arrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
 		2CC09FB921635FEA00C6CA13 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		2CC09FBB21635FEB00C6CA13 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2CD8C25A216C40B800A5CB8A /* UIImageView+url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+url.swift"; sourceTree = "<group>"; };
+		2CD8C25C216C4AF100A5CB8A /* KYWebImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYWebImageDownloader.swift; sourceTree = "<group>"; };
+		2CD8C25E216C4B0500A5CB8A /* KYWebImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYWebImageManager.swift; sourceTree = "<group>"; };
+		2CD8C260216C4B1C00A5CB8A /* KYWebImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYWebImageCache.swift; sourceTree = "<group>"; };
+		2CD8C262216D8C8A00A5CB8A /* KYPriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYPriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +162,7 @@
 		2CC09F4F215F67A100C6CA13 /* chene */ = {
 			isa = PBXGroup;
 			children = (
+				2CD8C259216C406E00A5CB8A /* imageviewExtension */,
 				2CC09F742160C79C00C6CA13 /* idrMap */,
 				2CC09F6B2160A58000C6CA13 /* third framework */,
 				2CC09F50215F67A100C6CA13 /* AppDelegate.swift */,
@@ -232,6 +243,18 @@
 				2CC09FB921635FEA00C6CA13 /* JSON.swift */,
 			);
 			path = arrow;
+			sourceTree = "<group>";
+		};
+		2CD8C259216C406E00A5CB8A /* imageviewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2CD8C25A216C40B800A5CB8A /* UIImageView+url.swift */,
+				2CD8C25C216C4AF100A5CB8A /* KYWebImageDownloader.swift */,
+				2CD8C25E216C4B0500A5CB8A /* KYWebImageManager.swift */,
+				2CD8C260216C4B1C00A5CB8A /* KYWebImageCache.swift */,
+				2CD8C262216D8C8A00A5CB8A /* KYPriorityQueue.swift */,
+			);
+			path = imageviewExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +348,7 @@
 				2CC09F9C2160D0C400C6CA13 /* Promise+Then.swift in Sources */,
 				2CC09F6F2160A5F500C6CA13 /* idrCoreManager.swift in Sources */,
 				2CC09FB32160D0C400C6CA13 /* Promise+First.swift in Sources */,
+				2CD8C261216C4B1C00A5CB8A /* KYWebImageCache.swift in Sources */,
 				2CC09F782160C7D900C6CA13 /* idrFloor.swift in Sources */,
 				2CC09F712160B6CD00C6CA13 /* MD5.swift in Sources */,
 				2CC09FAC2160D0C400C6CA13 /* Promise+NoMatterWhat.swift in Sources */,
@@ -335,6 +359,7 @@
 				2CC09FB22160D0C400C6CA13 /* PromiseError.swift in Sources */,
 				2CC09FAF2160D0C400C6CA13 /* Promise+Error.swift in Sources */,
 				2CC09FAB2160D0C400C6CA13 /* Promise+Validate.swift in Sources */,
+				2CD8C25F216C4B0500A5CB8A /* KYWebImageManager.swift in Sources */,
 				2CC09FBE21635FEB00C6CA13 /* JSON.swift in Sources */,
 				2CC09FAD2160D0C400C6CA13 /* Promise.swift in Sources */,
 				2CC09FA22160D0C400C6CA13 /* Promise+BridgeError.swift in Sources */,
@@ -343,9 +368,12 @@
 				2CC09F9B2160D0C400C6CA13 /* PromiseBlocks.swift in Sources */,
 				2CC09F9A2160D0C400C6CA13 /* Promise+Retry.swift in Sources */,
 				2CC09FB02160D0C400C6CA13 /* Promise+Chain.swift in Sources */,
+				2CD8C25B216C40B800A5CB8A /* UIImageView+url.swift in Sources */,
+				2CD8C25D216C4AF100A5CB8A /* KYWebImageDownloader.swift in Sources */,
 				2CC09FC021635FEB00C6CA13 /* Extensions.swift in Sources */,
 				2CC09F51215F67A100C6CA13 /* AppDelegate.swift in Sources */,
 				2CC09F59215F67A100C6CA13 /* chene.xcdatamodeld in Sources */,
+				2CD8C263216D8C8A00A5CB8A /* KYPriorityQueue.swift in Sources */,
 				2CC09F762160C7B500C6CA13 /* idrRegion.swift in Sources */,
 				2CC09F9F2160D0C400C6CA13 /* Promise+Unwrap.swift in Sources */,
 			);

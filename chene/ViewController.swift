@@ -27,22 +27,44 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         self.regions = regions?.map { return IdrRegion(JSON($0)) ?? IdrRegion() }
         
+        self.regions = self.regions.filter({ (region) -> Bool in
+          
+          return !region.photoUrl.isEmpty
+        })
+        
         self.finishLoading = true
         
-        self.tableview.reloadData()
+        self.tableview.reloadData()        
     }
+  }
+  
+  func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+
+    if section == 0 {
+      
+      return 0.001
+    }
+    
+    return 10
+  }
+  
+  func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+
+    return 0.001
   }
 
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     
-    return 100
+    return 209
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     
+    print(indexPath.section)
+    
     if let cell = tableview.dequeueReusableCell(withIdentifier: "ParkingCell") as? ParkingCell {
       
-      cell.refreshWithData(regions[indexPath.row])
+      cell.refreshWithData(regions[indexPath.section])
       
       return cell
     }
@@ -50,9 +72,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     return ParkingCell()
   }
   
+  func tableView(_ tableView: UITableView, shouldHighlightRowAt indexPath: IndexPath) -> Bool {
+    
+    return false
+  }
+  
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     
-    if finishLoading == false {
+    return 1
+  }
+  
+  func numberOfSections(in tableView: UITableView) -> Int {
+    
+    guard finishLoading else {
       
       return 0
     }
